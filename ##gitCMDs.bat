@@ -24,6 +24,7 @@ doskey gl=git log --graph --pretty=format:"%%Cred%%h%%Creset -%%C(yellow)%%d%%Cr
 doskey ga=git add -A
 doskey gc=git commit -am "$*" $t:: use gc with comment
 
+doskey gf=git fetch
 doskey gp=git push
 
 doskey gk=gitk $t:: Git repository browser
